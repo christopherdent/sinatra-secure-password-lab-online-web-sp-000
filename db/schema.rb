@@ -10,12 +10,19 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20191215032039) do
+=======
+ActiveRecord::Schema.define(version: 20191215023702) do
+>>>>>>> 03b3b9397f3e6439c8370178cef54ffc66161878
 
   create_table "users", force: :cascade do |t|
     t.string "username"
     t.string "password_digest"
+<<<<<<< HEAD
     t.integer "balance"
+=======
+>>>>>>> 03b3b9397f3e6439c8370178cef54ffc66161878
   end
 
 end
